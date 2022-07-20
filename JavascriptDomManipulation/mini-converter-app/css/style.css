@@ -13,11 +13,11 @@ body {
 }
 
 .container {
-  width: 100%;
+  
 }
 .input-field {
   width: 40%;
-  float: left;
+  float: 50px;
   padding: 10px;
   margin-left: 450px;
 }
@@ -27,7 +27,7 @@ body {
   margin-bottom: 10px;
   border: 1px solid black;
   border-radius: 15px;
-  padding: 5px;
+  padding: 1px;
 }
 .convert-btn {
   background-color: rgb(45, 90, 45);
@@ -44,15 +44,22 @@ body {
   font-size: small;
   color: rgb(255, 239, 14);
 }
-.show-result {
+/*.show-result {
   width: 40%;
   float: left;
   padding: 10px;
   margin-left: 470px;
   display: none;
 }
+*/
 .output-text {
   font-size: 28px;
   color: rgb(243, 69, 127);
-  font-weight: 600;
+  font-weight: 60;
+}
+#display  {
+  text-align: center;
+  color: rgb(255,255,255);
+  font-size:xx-large;
+  background-color: rgb(55, 77, 77);
 }

@@ -111,12 +111,20 @@ document.getElementById("meterToKmBtn").addEventListener("click", () => {
 
 // Show Result
 const showResult = (finalOutput, convertFrom, convertTo) => {
+  /*
   document.getElementById("show-output").style.display = "block";
   const output = document.createElement("p");
   output.classList.add("output-text");
   const input = inputNumber();
   output.innerText = `${input} ${convertFrom} = ${finalOutput} ${convertTo}`;
   document.getElementById("show-output").appendChild(output);
+  */
+
+
+  const display = document.getElementById('display');
+  const input = inputNumber();
+  display.innerText = `${input} ${convertFrom} = ${finalOutput} ${convertTo}`;
+  return display;
 };
 
 // Clear Input Field
